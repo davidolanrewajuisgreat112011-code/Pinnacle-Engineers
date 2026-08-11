@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+}
+
+body {
+     text-decoration: underline;
+     color: white;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.logo {
+    width: 80px;        /* makes it smaller */
+    height: auto;
+    position: absolute; /* allows positioning */
+    top: 10px;          /* distance from top */
+    left: 10px;         /* distance from left */
+}
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
