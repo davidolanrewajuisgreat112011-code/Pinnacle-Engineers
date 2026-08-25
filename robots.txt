@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://davidolanrewajuisgreat112011-code.github.io/Pinnacle-Engineer/sitemap.xml
